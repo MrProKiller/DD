@@ -1,0 +1,68 @@
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0" charset="utf-8">
+        <title>Home - SikhCreed </title>
+        <link rel="shortcut icon" href="images/icon.png">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/ed148e9236.js" crossorigin="anonymous"></script>
+      </head>
+      <body>
+       <section class="header" id="sec1">
+         <nav>
+           <a href="home.html"><img src="images/Logo.png" alt="SikhCreed"></a>
+           <div class="nav-links" id="navLinks">
+             <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+             <ul>
+               <li><a href="home.html">HOME</a></li>
+               <li>
+      <div class="dropdown">
+       <button class="dropbtn">EXPLORE</button>
+       <div class="dropdown-content"><center>
+        <a href="explore/founder.html">Founder</a>
+        <a href="explore/origin.html">Origin</a>
+        <a href="explore/worship.html">Worship</a>
+        <a href="explore/beliefs.html">Beliefs</a>
+        <a href="explore/food.html">Food</a>
+        <a href="explore/festival.html">Festival</a></center>
+       </div>
+      </div>
+               </li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+           </div>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <div class="text-box">
+           <h1>Sikhism</h1>
+           <p>"Death would not be called bad, O people, if one knew how to truly die."</p>
+         </div>
+    <a href="#sec2"><div class="scroll-down"><p>Click To View More</p></div></a>
+       </section>
+    <!---JavaScript For Toggle Menu---->
+    <script>
+
+
+      var navLinks = document.getElementById("navLinks")
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+        function hideMenu(){
+          navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+       <section class="bottom-page" id="sec2">
+        <div class="container">
+
+        </div>
+       </section>
+
+
+
+      </body>
+    </html>
