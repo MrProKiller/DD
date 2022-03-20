@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>About - SikhCreed </title>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/ed148e9236.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <section class="sub-header" id="sec1">
+     <nav>
+       <a href="index.html"><img src="images/Logo.png" alt="SikhCreed"></a>
+       <div class="nav-links" id="navLinks">
+         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="index.html">HOME</a></li>
+           <li>
+  <div class="dropdown">
+   <button class="dropbtn">EXPLORE</button>
+   <div class="dropdown-content"><center>
+    <a href="explore/founder.html">Founder</a>
+    <a href="explore/origin.html">Origin</a>
+    <a href="explore/worship.html">Worship</a>
+    <a href="explore/beliefs.html">Beliefs</a>
+    <a href="explore/food.html">Food</a>
+    <a href="explore/festival.html">Festival</a></center>
+   </div>
+  </div>
+           </li>
+           <li><a href="about.html">ABOUT</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+         </ul>
+       </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>About Us</h1>
+   </section>
+<!--About Us---->
+<section class="about-us">
+  <div class="row">
+    <div class="about">
+      <h1>We are the World's Largest Website Developers</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Ut iaculis diam non ante consequat malesuada. Duis ipsum lorem,
+        dignissim non placerat eget, interdum sit amet dolor. Vivamus ut dolor
+        tempus, euismod dolor et, euismod metus. Integer semper lorem at rhoncus
+        sagittis. Vestibulum at condimentum urna, sed porttitor ante. Vestibulum ac
+        tellus ornare, aliquam massa id, pretium orci.</p>
+        <h1 style="margin-top:10%;">Why We made this?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Ut iaculis diam non ante consequat malesuada. Duis ipsum lorem,
+          dignissim non placerat eget, interdum sit amet dolor.</p>
+    </div>
+    <div class="about">
+      <img src="images/aboutus.png" alt="about us sikhcreed">
+    </div>
+  </div>
+</section>
+<!---JavaScript For Toggle Menu---->
+<script>
+
+
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+  </body>
+</html>

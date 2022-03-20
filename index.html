@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Home - SikhCreed </title>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/ed148e9236.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <section class="header" id="sec1">
+     <nav>
+       <a href="index.html"><img src="images/Logo.png" alt="SikhCreed"></a>
+       <div class="nav-links" id="navLinks">
+         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="index.html">HOME</a></li>
+           <li>
+  <div class="dropdown">
+   <button class="dropbtn">EXPLORE</button>
+   <div class="dropdown-content"><center>
+    <a href="explore/founder.html">Founder</a>
+    <a href="explore/origin.html">Origin</a>
+    <a href="explore/worship.html">Worship</a>
+    <a href="explore/beliefs.html">Beliefs</a>
+    <a href="explore/food.html">Food</a>
+    <a href="explore/festival.html">Festival</a></center>
+   </div>
+  </div>
+           </li>
+           <li><a href="about.html">ABOUT</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+         </ul>
+       </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <div class="text-box">
+       <h1>Sikhism</h1>
+       <p>"Death would not be called bad, O people, if one knew how to truly die."</p>
+     </div>
+<a href="#sec2"><div class="scroll-down"><p>Click To View More</p></div></a>
+   </section>
+<!---JavaScript For Toggle Menu---->
+<script>
+
+
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+<section class="bottom-page" id="sec2">
+   <h1>About Sikhism</h1>
+   <p>Sikhism is a religion originally from India, It is one of the 5 <br>
+Dharmic faiths or Indic Faiths which means it was <br>
+originated in Indian Subcontinent and whose followers are <br>
+called "Sikhs". The word Sikh means student or discipline.
+   <h1 class="fact">Did you know?</h1>
+   <p>Sikhs really like to chant, They love to server food <br>
+and They are skilled horseback riders</p>
+<div class="home-redirect"><a href="explore/food.html"><img src="images/food.png"></a>
+<a href="explore/festival.html"><img src="images/festival.png"></a>
+<a href="explore/worship.html"><img src="images/worship.png"></a></div>
+</section>
+
+
+
+  </body>
+</html>
