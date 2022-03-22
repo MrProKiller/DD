@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Festival - SikhCreed </title>
+    <link rel="shortcut icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/ed148e9236.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <section class="exploreff-header">
+     <nav>
+       <a href="../index.html"><img src="../images/Logo.png" alt="SikhCreed"></a>
+       <div class="nav-links" id="navLinks">
+         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="../index.html">HOME</a></li>
+           <li>
+  <div class="dropdown">
+   <button class="dropbtn">EXPLORE</button>
+   <div class="dropdown-content"><center>
+    <a href="founder.html">Founder</a>
+    <a href="origin.html">Origin</a>
+    <a href="worship.html">Worship</a>
+    <a href="beliefs.html">Beliefs</a>
+    <a href="food.html">Food</a>
+    <a href="festival.html">Festival</a></center>
+   </div>
+  </div>
+           </li>
+           <li><a href="../about.html">ABOUT</a></li>
+           <li><a href="../contact.html">CONTACT</a></li>
+         </ul>
+       </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>Festival</h1>
+   </section>
+<!--Festivals---->
+<section class="explore">
+  <div class="row">
+    <div class="explores">
+      <strong><h1>Importance</h1></strong>
+      <p>There are numerous Sikh fairs and festivals. Some are of local importance
+         as Maghi of Muktsar and Hola Mohalla of Anandpur.The most important festivals
+          are observed by the Sikhs wherever they are. On such occasions the whole Sikh
+           families of a particular place gather in a gurudwara. It is properly decorated
+            and illuminated. The Granth is read constantly. Hymns are sung in chorus or by
+             professional Sikh singers. Prayer is said. Sweet pudding (karah prasad) is
+              distributed in the whole congregation. In hot weather sweetened and iced water
+               is served at various places. Houses are lighted in the evening. A free langar
+                at the main gurudwara is a must for every fair and festival.</p>
+      <h1 style="margin-top:10%;">Baisakhi</h1>
+      <p>Baisakhi, or Vaisakhi, is the festival which celebrates Sikh New
+         Year and the founding of the Sikh community in 1699, known as the Khalsa.
+          It is celebrated on 13 or 14 April and began as a harvest festival in the
+           Punjab before it became the Sikhs' most important festival.</p>
+    </div>
+    <div class="explores" id="none">
+      <img src="../images/festival.jpg" alt="sikh festival sikhcreed">
+    </div>
+  </div>
+</section>
+<!---JavaScript For Toggle Menu---->
+<script>
+
+
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Food - SikhCreed </title>
+    <link rel="shortcut icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/ed148e9236.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <section class="explore-header">
+     <nav>
+       <a href="../index.html"><img src="../images/Logo.png" alt="SikhCreed"></a>
+       <div class="nav-links" id="navLinks">
+         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="../index.html">HOME</a></li>
+           <li>
+  <div class="dropdown">
+   <button class="dropbtn">EXPLORE</button>
+   <div class="dropdown-content"><center>
+    <a href="founder.html">Founder</a>
+    <a href="origin.html">Origin</a>
+    <a href="worship.html">Worship</a>
+    <a href="beliefs.html">Beliefs</a>
+    <a href="food.html">Food</a>
+    <a href="festival.html">Festival</a></center>
+   </div>
+  </div>
+           </li>
+           <li><a href="../about.html">ABOUT</a></li>
+           <li><a href="../contact.html">CONTACT</a></li>
+         </ul>
+       </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>Food</h1>
+   </section>
+<!--Food---->
+<section class="explore">
+  <div class="row">
+    <div class="explores">
+      <strong><h1>Food as a Divine gift</h1></strong>
+      <p>Food is part of the spiritual life of every Sikh,
+       which Sikhs commonly referred to as rijak, divine sustenance,
+       or giras, nourishment. It is understood that after creating the
+       Creation, the Divine continuously nourishes it and sustains it
+       through breath and food. As the Sikh Guru, Guru Amar Das writes:
+       The Creator created the creation; the Creator gazes upon it,
+       and blesses it with breath and nourishment</p>
+        <h1 style="margin-top:10%;">Food production</h1>
+        <p>The Gurus used the language of farming to communicate to farmers developing one’s Inner Self, to attain harmony with the Beloved in this world. While speaking to farmers, the fifth Guru, Guru Arjan Dev Ji used the metaphor of cultivating the land with one’s own hands to describe union with the Beloved: By Your Command, the month of Saawan (monsoon season) has come. I have hooked up the plough of Truth, and I plant the seed of the Name in hope that the Lord, in His Generosity, will bestow a bountiful harvest.</p>
+    </div>
+    <div class="explores" id="none">
+      <img src="../images/food.jpg" alt="sikh food sikhcreed">
+    </div>
+  </div>
+</section>
+<!---JavaScript For Toggle Menu---->
+<script>
+
+
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+  </body>
+</html>
